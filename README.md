@@ -1,4 +1,4 @@
-# Frontend_Practice
+# Web-Development_Practice
 
 ## Overview
 This repository functions as a dynamic record of my independent exploration into frontend development, presenting my ongoing progress and projects as I engage with HTML, CSS, JavaScript, and related technologies.
