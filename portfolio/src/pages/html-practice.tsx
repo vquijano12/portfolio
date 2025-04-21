@@ -1,8 +1,9 @@
 import React from "react";
+import Image from "next/image";
 
 export default function HTMLPractice1() {
   return (
-    <div className="p-4">
+    <div className="p-2">
       <p className="text-lg">Hello World! Welcome to my first web page!</p>
       <p className="text-lg">Here is a paragraph:</p>
       <p className="text-lg">
@@ -92,9 +93,11 @@ export default function HTMLPractice1() {
       </p>
       <br />
       <h1 className="text-2xl font-bold">This is a cute cat picture</h1>
-      <img
+      <Image
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg"
         alt="cat"
+        width={250}
+        height={250}
         className="w-64"
       />
       <br />
@@ -125,15 +128,17 @@ export default function HTMLPractice1() {
       <h1 className="text-2xl font-bold text-blue-500">
         My <span className="underline">heading</span>
       </h1>
-      <img
+      <Image
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg"
         alt="cat"
+        width={250}
+        height={250}
         className="w-64"
       />
       <p className="text-lg text-red-500">
         This image should have the width of 250px, source
         <br />
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg"
+        &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg&quot;
       </p>
       <hr className="my-4" />
       <h1 className="text-2xl font-bold text-purple-500">Another heading</h1>

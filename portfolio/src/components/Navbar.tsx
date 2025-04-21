@@ -9,7 +9,7 @@ export default function Navbar() {
           <Link href="/">Home Page</Link>
         </li>
         <li>
-          <Link href="/htmlPractice1">HTML Practice 1</Link>
+          <Link href="/html-practice">HTML Practice 1</Link>
         </li>
       </ul>
     </nav>
