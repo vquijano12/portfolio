@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 export default function HTMLPractice1() {
   return (
@@ -93,7 +92,7 @@ export default function HTMLPractice1() {
       </p>
       <br />
       <h1 className="text-2xl font-bold">This is a cute cat picture</h1>
-      <Image
+      <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg"
         alt="cat"
         width={250}
@@ -128,7 +127,7 @@ export default function HTMLPractice1() {
       <h1 className="text-2xl font-bold text-blue-500">
         My <span className="underline">heading</span>
       </h1>
-      <Image
+      <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg"
         alt="cat"
         width={250}
