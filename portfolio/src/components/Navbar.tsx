@@ -12,6 +12,10 @@ export default function Navbar() {
         <li>
           <Link href="/html-practice">HTML Practice 1</Link>
         </li>
+        <li>|</li>
+        <li>
+          <Link href="/art-portfolio">Art Portfolio</Link>
+        </li>
       </ul>
       <hr />
     </nav>
